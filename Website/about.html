@@ -1,0 +1,76 @@
+<!--For the Homepage i have adopted some code that I found in a youtube video /Citation in report.html/. I have edited it to suit my needs and to fit my audience's requirements-->
+
+<!DOCTYPE html> 
+<html Lang=en> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0"> <!--For responsive design-->
+        <!--Each page has a title, including title of website and current page-->
+        <title>The Super Smash Brothers | About</title> 
+        <link rel="stylesheet" href="../css/style.css">
+     </head>
+     <body>
+         <!--Code for the header and nav bar with a class of container for global css and id for the logo-->
+         <header>
+             <div class ="container">
+                 <div id="logo">
+                     <h1><a href="index.html">The <span class="highlight">Super Smash</span> Brothers</a></h1>
+                 </div>
+                 <nav>
+                     <ul>
+                         <li><a href=index.html>Home</a></li>
+                         <li><a href=tips_tricks.html>Tips And Tricks</a></li>
+                         <li><a href=characters.html>Characters</a></li>
+                         <li><a href=news.html>News</a></li>
+                         <li class="active"><a href=about.html>About</a></li>
+                     </ul>
+                 </nav>
+             </div>
+         </header>
+        <!--I have included a "background" for each page excluding the webpage as a the main heading, i have not used the background semantic tag however for formatting purposes-->
+
+         <section id="background">
+          <img class ="img" src ="../img/pichu.jpg" alt  ="Picture of Pichu">  
+             <div class = "img_text"><h2>About us</h2>
+              <p>Discover what we are about and what our goal is</p>
+             </div>
+         </section>
+         <!-- Main section which uses code i have adopted eg the sidebar-->
+         <section id="main">
+             <div class ="container">
+                 <article id="column">
+                     <h2 class="title"> Our Mission</h2>
+                       <p>At The Super Smash Brothers, we want to build a bigger and better community for Super Smash bros. We would like to celebrate the release of the biggest crossover ever in the franchise by creating this website and helping the community get better at the game and keeping them up to date on the latest news. We are a non-profit organisation who only seeks to benefit the community by keeping this website running and keeping it up to date.
+                       </p>
+                       <p class = "dark">Please consider subscribing to our news letter to receive recent updates and access to our weekly newsletter, featuring the latest tech and news on future DLC fighters.
+                       </p>
+                  </article>
+                 <aside id="sidebar">
+                     <div class="dark">
+                      <h3>What we do</h3>
+                       <p>We are a small team of gamers looking to express our love for the Super Smash bros franchise, particularly Super Smash bros Ultimate. We want to share with you, the playerbase what you can do to improve your skills and keeping you up to date on the latest smash news. You can expect consistent updates from us so make sure to come back to our site and stay informed. On our website you can find a handy guide to improve your gameplay, a character list including a tier list and a news page, where you can find the latest smash news.
+                       </p>
+                     </div>
+                 </aside>
+             </div>
+         </section>
+         <!--Newsletter section, code i have adopted from youtube link specified in report.html-->
+         <section id="newsletter">
+             <div class ="container">
+                 <h2>Sign up to get the best content of the weeks</h2>
+                 <form>
+                     <input type ="email" placeholder="Enter email...">
+                     <button type ="submit" class="button-1">Subscribe</button>
+                 </form>
+             </div>
+         </section>
+
+         <!--Footer-->
+         <footer>
+             <p>The Super Smash brothers &copy; Nintendo UK 2020</p>
+         </footer>
+         
+         <script src="../app/app.js"></script>
+         
+     </body>
+</html>

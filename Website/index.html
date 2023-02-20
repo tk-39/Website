@@ -1,0 +1,87 @@
+<!--For the Homepage i have adopted some code that I found in a youtube video /Citation in report.html/. I have edited it to suit my needs and to fit my audience's requirements-->
+
+<!DOCTYPE html> 
+<html Lang=en> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0"> <!--For responsive design-->
+        <!--Each page has a title, including title of website and current page-->
+        <title>The Super Smash Brothers | Home</title> 
+        <link rel="stylesheet" href="../css/style.css">
+     </head>
+     <body>
+         <!--Code for the header and nav bar with a class of container for global css and id for the logo-->
+         <header>
+             <div class ="container">
+                 <div id="logo">
+                     <h1><a href="index.html">The <span class="highlight">Super Smash</span> Brothers</a></h1>
+                 </div>
+                 <nav>
+                     <ul>
+                         <li class="active"><a href=index.html>Home</a></li>
+                         <li><a href=tips_tricks.html>Tips And Tricks</a></li>
+                         <li><a href=characters.html>Characters</a></li>
+                         <li><a href=news.html>News</a></li>
+                         <li><a href=about.html>About</a></li>
+                     </ul>
+                 </nav>
+             </div>
+         </header>
+         <!--Slideshow "mySlides" used in js for for loop function-->
+         <section>
+                  <img class="mySlides" src="../img/smash_1.jpg" alt="Smash Characters">
+                  <img class="mySlides" src="../img/smash_2.jpg" alt="Smash Characters">
+                  <img class="mySlides" src="../img/smash_3.jpeg" alt="Joker/Arsene">
+                  <div id="slideshow">
+                    <h1>Improve your gameplay</h1>
+                     <p>Dedicated to help you exceed in performance and keeping you up to date on the latest smash related information</p> 
+                     <p><a href=about.html>Read More</a></p>
+                  </div>
+         </section>
+
+         <section id="page_title">
+             <h2>Latest updates</h2>
+              <p>Check out the latest articles to see if you have missed out on any new information or updates</p>
+         </section>
+         <!--Included a boxes section where users can read a brief summary of pages and go to them -->
+         <section id="boxes">
+             <div class ="container">
+                 <div class="box">
+                     <a target="_blank" href="tips_tricks.html">
+                      <img src="../img/terry.jpg" alt="Img of Terry from smash bros">
+                         <div class="button1">Popular</div>
+                         </a>
+                     <h3>Skills like no other</h3>
+                      <p>Read how you can drastically improve your performance as a Super Smash bros player.
+                      </p>
+                 </div>
+                 <div class="box">
+                     <a target="_blank" href="characters.html">
+                     <img src ="../img/ken.jpg" alt="Img of Ken from Smash bros">
+                         <div class="button2">Special</div>
+                         </a>
+                     <h3>The best characters</h3>
+                     <p>Be sure not to miss out on the best characters in Super smash bros Ultimate right now</p>
+                 </div>
+                 <div class="box">
+                     <a target="_blank" href="news.html">
+                     <img src ="../img/dragon_quest.jpg" alt="Img of Hero from smash bros">
+                         <div class="button3">Latest</div>
+                          </a>
+                     <h3>Latest News</h3>
+                    <p>Keeping you updated with all the lastest smash related information such as DLC fighter 5 rumours</p>
+                 </div>
+             </div>
+         </section>
+
+         <!--Footer-->
+         
+        <footer>
+             <p>The Super Smash brothers &copy; Nintendo UK 2020</p>
+         </footer>
+         
+         
+         <script src="../app/app.js"></script>
+         
+     </body>
+</html>
